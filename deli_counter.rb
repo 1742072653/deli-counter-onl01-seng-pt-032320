@@ -7,6 +7,8 @@ def line(array)
     while num < array.size
       str << " " + (num + 1).to_s + ". " + name[num]
       num += 1
+    end
+    puts str
   end
 end
 
