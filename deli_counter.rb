@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else
     while num < array.size
-      str << " " + (num + 1).to_s + ". " + name[num]
+      str << " " + (num + 1).to_s + ". " + array[num]
       num += 1
     end
     puts str
