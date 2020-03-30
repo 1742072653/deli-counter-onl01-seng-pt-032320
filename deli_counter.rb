@@ -1,9 +1,10 @@
 def line(array)
   str = "The line is currently:"
+  num = 0
   if array.size == 0 
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{array}."
+    
   end
 end
 
