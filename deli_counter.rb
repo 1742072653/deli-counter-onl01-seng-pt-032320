@@ -4,7 +4,9 @@ def line(array)
   if array.size == 0 
     puts "The line is currently empty."
   else
-    
+    while num < array.size
+      str << " " + (num + 1).to_s + ". " + name[num]
+      num += 1
   end
 end
 
